@@ -54,23 +54,46 @@
 
 <span style="font-weight: bold">Javascript Examples</span>
 <ul>
-  <li><a href="http://www.atc.edu/" title="ATC Home Page">ATC Home Page</a>
+  <li><a href="http://www.atc.edu/" title="ATC Home Page" target="_blank">ATC Home Page</a>
       <br />
       The rotator is a prepackaged javascript code, but I'm supplying the information for the links and images it needs within the code-behind page.  This access the web.config file for the information and pushes it to the page itself.
   </li>
-  <li><a href="http://www.atc.edu/p371.aspx" title="QEP Javascript Rotator">QEP</a>
+  <li><a href="http://www.atc.edu/p371.aspx" title="QEP Javascript Rotator" target="_blank">QEP</a>
       <br />
       The bottom of this page features a simple javascript rotator section that was custom built.  It applies arrays containing image urls and titles to the create the section.
   </li>
-  <li><a href="" title=""></a></li>
-  <li><a href="" title=""></a></li>
+  <li><a href="http://www.atc.edu/p29.aspx" title="ATC's Enrollment Checklist" target="_blank">Enrollment Checklist</a>
+      <br />
+      Simple Javascript that replaces the disabled check-boxes with a check image once that specific link is clicked.  Page also uses ASP.NET AJAX coding to swithc between Student sections.
+  </li>
 </ul>
 <br />
 <span style="font-weight: bold">SQL Examples</span>
 <ul>
-  
-  <li><a href="" title=""></a></li>
-  <li><a href="" title=""></a></li>
+  <li><a href="http://www.atc.edu/p4.aspx" title="ATC Faculty & Staff Page" target="_blank">Faculty & Staff</a>
+    <br />
+    Entire page is SQL driven.  Each link will run proccess in the code-behind page to search our Colleague SQL database for the correct information.  Once this information is retrieved, it dynamically creates tables to display the information.
+  </li>
+  <li><a href="http://www.atc.edu/Catalog/current/c3.aspx" title="ATC Course Catalog" target="_blank">Course Descriptions</a>
+    <br />
+    Works the same as the Faculty & Staff page, but also has a back end to link to other courses depending on requirments, and actually searches the text for key symbols to make that information a link.
+  </li>
+  <li><a href="http://www.atc.edu/P34.aspx" title="Veterans to Careers Information" target="_blank">Veterans to Careers</a>
+    <br />
+    The "Available Job Positions" section pulls information from SQL database to supply the links, as well as the information that follows on each click, then uses AJAX to update the panels and return the information without reloading the page.
+  </li>
+  <li><a href="http://www.atc.edu/P593.aspx" title="ASSIST Training" target="_blank">ASSIST Corporate Training</a>
+    <br />
+    This page contains a hidden section that allows employer applicants to submit job listings and save this information to the database.  This infromation is then viewed from an administrator side to allow postings to be viewed on a seperate page.
+  </li>
+</ul>
+<br />
+<span style="font-weight: bold">Other Examples</span>
+<ul>
+  <li><a href="https://apply.atc.edu/" title="ATC Online Application" target="_blank">Online Application</a>
+    <br />
+    While the information given by applicants is saved to a database, there is also operations going on throughout the wizard that save the information entered.  After each screen, the applicant can leave the page entirely, but upon return, enter their information and will be given the next panel that was incomplete.  This page also takes the user to a third-party pay site which upon sucessful payment, returns the user back to the application to finish.
+  </li>
 </ul>
 <br />
 <h1>
