@@ -1,0 +1,30 @@
+Current work examples
+
+<p>See the links below for examples of the work I have completed in the past:</p>
+
+<h2>Aiken Technical College</h2>
+
+<span style="font-weight: bold">Javascript Examples</span>
+<ul>
+  <li><a href="http://www.atc.edu/" title="ATC Home Page">ATC Home Page</a>
+      <br />
+      The rotator is a prepackaged javascript code, but I'm supplying the information for the links and images it needs within the code-behind page.  This access the web.config file for the information and pushes it to the page itself.
+  </li>
+  <li><a href="http://www.atc.edu/p371.aspx" title="QEP Javascript Rotator">QEP</a>
+      <br />
+      The bottom of this page features a simple javascript rotator section that was custom built.  It applies arrays containing image urls and titles to the create the section.
+  </li>
+  <li><a href="" title=""></a></li>
+  <li><a href="" title=""></a></li>
+</ul>
+<br />
+<span style="font-weight: bold">SQL Examples</span>
+<ul>
+  
+  <li><a href="" title=""></a></li>
+  <li><a href="" title=""></a></li>
+</ul>
+*[ATC Home Page](http://www.atc.edu/) <- 
+*[QEP](http://www.atc.edu/p371.aspx)  <- 
+*
+SQL Examples
