@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=640">
 
       <style type="text/css">
-          #return { float: right; clear: both; background: #7C334F; padding: 3px; border: solid 1px #CD596B; font-style: italic; font-size: 11px; color: #ECE4D8; }
-          .title { color: #7C334F; font-size: 22px; font-stlye: italic; text-align: center; border-bottom: double 1px #7C334F;}
+          #return { float: right; clear: both; background: #7C334F; padding: 3px; border: solid 2px #CD596B; font-style: italic; font-size: 11px; color: #F2EADE; }
+          .title { clear: both; color: #7C334F; font-size: 24px; font-stlye: italic; text-align: center; border-bottom: double 3px #7C334F;}
           .off {  visibility: hidden; height: 0px; }
           .on { visibility: visible; }
           .workDate { font-style: italic; font-weight: bold; }
@@ -40,9 +40,7 @@
             div.className = "on";
             
             if(link != null){
-              alert("in link");
               if(el != "home") {
-                alert("in el");
                 link.classname = "on";
               }
               else{
@@ -63,7 +61,7 @@
       <header>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-            <h1>J. Adams Mitchell Jr.</h1>
+            <h1><a href="#" onclick="loadPanel('home');">J. Adams Mitchell Jr.</a></h1>
             <h2>Online Resume</h2>
           </span>
           <span class="left-tail"></span>
