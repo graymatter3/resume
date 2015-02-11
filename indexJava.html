@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=640">
 
       <style type="text/css">
+          #return { float: right; clear: both; background: #7C334F; padding: 3px; border: solid 1px #CD596B; font-style: italic; font-size: 11px; color: #ECE4D8; }
           .off {  visibility: hidden; height: 0px; }
-
           .on { visibility: visible; }
+          .workDate { font-style: italic; font-weight: bold; }
+          .workSection { padding-left: 20px; display: block; }
       </style>
 
     <link rel="stylesheet" href="stylesheets/core.css" media="screen">
@@ -31,10 +33,19 @@
 
     function loadPanel(el){
         allOff();
-        var div = document.getElementById(el)
-        
+        var div = document.getElementById(el);
+        var link = document.getElementById("return");
         if(div != null) {
             div.className = "on";
+            
+            if(link != null){
+              if(el != "home") {
+                link.classname = "on";
+              }
+              else{
+                link.classname = "off";
+              }
+            }
         }
         
       }
@@ -68,7 +79,7 @@
 
 
       <section id="main_content">
-      
+        <div id="return" class="off"><a href="#" onclick="loadPanel('home');">Return Home</a></div>
         <div id="home" class="off">
               <h1>
       <a id="professional-profile" class="anchor" href="#professional-profile" aria-hidden="true"><span class="octicon octicon-link"></span></a>Professional Profile</h1>
