@@ -8,6 +8,10 @@
       <style type="text/css">
           #returnLink { float: right; clear: both; background: #7C334F; padding: 3px; border: solid 2px #CD596B; font-style: italic; font-size: 11px; }
           #returnLink a {color: #ECE4D8;}
+          
+          .ribbon-inner h1 a { color: #ECE4D8; text-decoration: none; }
+          .ribbon-inner h1 a:hover { color: #D3CCC1;}
+          
           .title { clear: both; color: #7C334F; font-size: 24px; font-stlye: italic; text-align: center; border-bottom: double 5px #D3CCC1;}
           .off {  visibility: hidden; height: 0px; }
           .on { visibility: visible; }
@@ -42,10 +46,10 @@
             
             if(link != null){
               if(el != "home") {
-                link.classname = "on";
+                link.className = "on";
               }
               else{
-                link.classname = "off";
+                link.className = "off";
               }
             }
         }
@@ -62,7 +66,7 @@
       <header>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-            <h1><a href="#" onclick="loadPanel('home');" style="color: #ECE4D8; text-decoration: none;" title="Click to return to my profile.">J. Adams Mitchell Jr.</a></h1>
+            <h1><a href="#" onclick="loadPanel('home');" title="Click to return to my profile.">J. Adams Mitchell Jr.</a></h1>
             <h2>Online Resume</h2>
           </span>
           <span class="left-tail"></span>
