@@ -26,7 +26,7 @@
     <title>Adams Mitchell - Online Resume - Github style</title>
   </head>
 
-  <body>
+  <body onload="loadPanel('home');">
     <!-- <a id="forkme_banner" href="https://github.com/graymatter3/resume">View on GitHub</a> -->
     <div class="shell">
 
@@ -243,7 +243,7 @@
         document.getElementById("hist").className = "off";
       }
 
-    function loadPanel(element){
+    function loadPanel(var element){
         alert("here");
         allOff();
         var div = document.getElementById(element)
@@ -253,8 +253,6 @@
         }
         
       }
-      
-      window.onload = loadPanel("home");
   </script>
   <!-- -->
 </html>
