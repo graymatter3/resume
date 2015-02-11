@@ -22,6 +22,23 @@
         $(document).ready(function () {
             $('#main_content').headsmart()
         })
+        
+        function allOff(){
+        document.getElementById("home").className = "off";
+        document.getElementById("codeex").className = "off";
+        document.getElementById("hist").className = "off";
+      }
+
+    function loadPanel(var element){
+        alert("here");
+        allOff();
+        var div = document.getElementById(element)
+        
+        if(div != null) {
+            div.className = "on";
+        }
+        
+      }
     </script>
     <title>Adams Mitchell - Online Resume - Github style</title>
   </head>
@@ -235,24 +252,4 @@
 
     
   </body>
- 
-  <script type="javascript/text">
-      function allOff(){
-        document.getElementById("home").className = "off";
-        document.getElementById("codeex").className = "off";
-        document.getElementById("hist").className = "off";
-      }
-
-    function loadPanel(var element){
-        alert("here");
-        allOff();
-        var div = document.getElementById(element)
-        
-        if(div != null) {
-            div.className = "on";
-        }
-        
-      }
-  </script>
-  <!-- -->
 </html>
