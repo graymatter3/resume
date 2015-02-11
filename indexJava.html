@@ -29,10 +29,10 @@
         document.getElementById("hist").className = "off";
       }
 
-    function loadPanel(var element){
+    function loadPanel(){
         alert("here");
         allOff();
-        var div = document.getElementById(element)
+        var div = document.getElementById("home")
         
         if(div != null) {
             div.className = "on";
@@ -43,7 +43,7 @@
     <title>Adams Mitchell - Online Resume - Github style</title>
   </head>
 
-  <body onload="loadPanel('home');">
+  <body onload="loadPanel();">
     <!-- <a id="forkme_banner" href="https://github.com/graymatter3/resume">View on GitHub</a> -->
     <div class="shell">
 
